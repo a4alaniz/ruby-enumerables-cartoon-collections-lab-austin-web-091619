@@ -11,7 +11,8 @@ def summon_captain_planet(food)
 end
 
 def long_planeteer_calls(calls_long)
-  calls_long.map 
+  calls_long.map |item| 
+   if item.length < 5 
   # Your code here
 end
 
