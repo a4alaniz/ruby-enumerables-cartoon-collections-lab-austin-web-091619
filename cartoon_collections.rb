@@ -10,8 +10,8 @@ def summon_captain_planet(food)
   # Your code here
 end
 
-def long_planeteer_calls(calls_long)
-   array.any? { |word| word.length > 4}
+def long_planeteer_calls(array)
+   array.any? {|word| word.length > 4}
 end
 end
 
