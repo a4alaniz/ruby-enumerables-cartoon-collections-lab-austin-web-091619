@@ -11,10 +11,8 @@ def summon_captain_planet(food)
 end
 
 def long_planeteer_calls(calls_long)
-  calls_long.map do |item, i| 
-   if item.length > 4 then 
-   else 
-   end
+   array.any? { |word| word.length > 4}
+end
 end
 
 def find_the_cheese# code an argument here
