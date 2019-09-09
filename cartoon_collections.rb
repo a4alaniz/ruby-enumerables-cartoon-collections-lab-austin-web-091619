@@ -12,8 +12,8 @@ end
 
 def long_planeteer_calls(calls_long)
   calls_long.map do |item, i| 
-   if item.length > 4 then true
-   else false
+   if item.length > 4 then 
+   else 
    end
 end
 
