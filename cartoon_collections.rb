@@ -15,7 +15,6 @@ def long_planeteer_calls(calls_long)
    if item.length < 5 then false
    else true
    end
-  # Your code here
 end
 
 def find_the_cheese# code an argument here
