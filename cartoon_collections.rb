@@ -11,7 +11,7 @@ def summon_captain_planet(food)
 end
 
 def long_planeteer_calls(calls_long)
-  calls_long
+  calls_long.map 
   # Your code here
 end
 
