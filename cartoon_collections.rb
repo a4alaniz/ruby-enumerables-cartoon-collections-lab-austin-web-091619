@@ -12,7 +12,8 @@ end
 
 def long_planeteer_calls(calls_long)
   calls_long.map |item| 
-   if item.length < 5 
+   if item.length < 5 then FALSE
+   else 
   # Your code here
 end
 
